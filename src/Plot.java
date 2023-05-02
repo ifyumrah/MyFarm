@@ -4,7 +4,7 @@ public class Plot {
     public boolean needsWater;
 
     public Plot(){
-        needsWater = true;
+        needsWater = false;
         numberOfPlant = (int)(Math.random() * 100)+10;
         int num = (int)(Math.random() * 5);
         if(num == 0){
