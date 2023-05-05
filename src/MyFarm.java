@@ -23,6 +23,7 @@ public class MyFarm {
         printPlantNames();
         totalCarrots();
         averageNumberOfPlants();
+        numberOfTomatoPlots();
     }
 
     public void totalPlants() {
@@ -69,12 +70,12 @@ public class MyFarm {
             for (int h = 0; h < grid.length; h++) {
                 for (int k = 0; k < grid[h].length; k++) {
                     if (grid[h][k].plantName.equals("tomato")) {
-
+//                        (tomatoPlots=grid[h].length/tomatoPlots+=grid[k].length);
 
                     }
                 }
             }
-            System.out.println("there are " + tomatoPlots + " plots with tomatos");
+            System.out.println("there are " + tomatoPlots + " plots with tomatoes");
         }
     }
 }
