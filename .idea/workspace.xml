@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="carrots and tomatos">
+    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="tride to find total tomato plots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFarm.java" afterDir="false" />
     </list>
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683041171563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tride to find total tomato plots">
+      <created>1683253195995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683253195995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +97,18 @@
     <MESSAGE value="2d array" />
     <MESSAGE value="print plant names and sum of plant" />
     <MESSAGE value="carrots and tomatos" />
-    <option name="LAST_COMMIT_MESSAGE" value="carrots and tomatos" />
+    <MESSAGE value="tride to find total tomato plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="tride to find total tomato plots" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyFarm.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

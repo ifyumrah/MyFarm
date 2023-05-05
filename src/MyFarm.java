@@ -24,6 +24,7 @@ public class MyFarm {
         totalCarrots();
         averageNumberOfPlants();
         numberOfTomatoPlots();
+        numberOfEmptyPlots();
     }
 
     public void totalPlants() {
@@ -57,25 +58,50 @@ public class MyFarm {
         }
         System.out.println("the total carrots are " + carrots);
     }
+
     public void averageNumberOfPlants() {
         int sum = 0;
         for (int x = 0; x < grid.length; x++) {
             for (int h = 0; h < grid[x].length; h++) {
                 sum += grid[x][h].numberOfPlant;
             }
-        } System.out.println(sum/grid.length);
+        }
+        System.out.println(sum / grid.length);
     }
-    public void numberOfTomatoPlots() {
-        { int tomatoPlots = 0;
-            for (int h = 0; h < grid.length; h++) {
-                for (int k = 0; k < grid[h].length; k++) {
-                    if (grid[h][k].plantName.equals("tomato")) {
-//                        (tomatoPlots=grid[h].length/tomatoPlots+=grid[k].length);
 
-                    }
+    public void numberOfTomatoPlots() {
+        int tomatoPlots = 0;
+        for (int h = 0; h < grid.length; h++) {
+            for (int k = 0; k < grid[h].length; k++) {
+                if (grid[h][k].plantName.equals("tomato")) {
+                    System.out.println("found tomato");
+                    tomatoPlots += 1;
                 }
             }
-            System.out.println("there are " + tomatoPlots + " plots with tomatoes");
+        }
+        System.out.println("there are " + tomatoPlots + " plots with tomatoes");
+
+    }
+
+    public void numberOfEmptyPlots() {
+        int emptyPlot = 0;
+        for (int h = 0; h < grid.length; h++) {
+            for (int k = 0; k < grid[h].length; k++) {
+                if (grid[h][k].plantName.equals("empty")) {
+                    System.out.println("empty plot");
+                    emptyPlot += 1;
+                }
+            }
+        }
+        System.out.println("there are " + emptyPlot + " empty plots");
+    }
+
+    public void plantWithMaxNumber() {
+        int max = 0;
+        for (int x = 0; x < grid.length; x++) {
+            for (int h = 0; h < grid[x].length; h++) {
+                    max = grid.length - 1;
+                }
+            }
         }
     }
-}
