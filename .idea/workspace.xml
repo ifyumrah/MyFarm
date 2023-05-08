@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="tride to find total tomato plots">
+    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="plant with max number, number of empty and tomato plot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFarm.java" afterDir="false" />
     </list>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683253195995</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="plant with max number, number of empty and tomato plot">
+      <created>1683306375350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683306375350</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +105,8 @@
     <MESSAGE value="print plant names and sum of plant" />
     <MESSAGE value="carrots and tomatos" />
     <MESSAGE value="tride to find total tomato plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="tride to find total tomato plots" />
+    <MESSAGE value="plant with max number, number of empty and tomato plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="plant with max number, number of empty and tomato plot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
