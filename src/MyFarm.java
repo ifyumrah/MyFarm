@@ -1,7 +1,7 @@
 public class MyFarm {
-    public static void main(String[] args) {
-        MyFarm fruit = new MyFarm();
-    }
+//    public static void main(String[] args) {
+//        MyFarm fruit = new MyFarm();
+//    }
 
     public Plot[][] grid;
 
