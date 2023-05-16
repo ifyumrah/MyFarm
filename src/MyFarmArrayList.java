@@ -16,5 +16,16 @@ public class MyFarmArrayList {
         row.add(new Plot());
         System.out.println(row.size());
     }
+    public class Main {
+        public static void main(String[] args) {
+            ArrayList<String> fruit = new ArrayList<String>();
+            fruit.add("elderberry");
+            fruit.add("kiwi");
+            fruit.add("watermelon");
+            fruit.add("grapefruit");
+            System.out.println(fruit);
+        }
+    }
+
 
 }
