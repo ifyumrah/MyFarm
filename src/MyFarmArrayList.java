@@ -12,19 +12,30 @@ public class MyFarmArrayList {
             System.out.println(row.size());
             row.add(new Plot());
             row.get(p).printPlot();
+//            a.printPlot();
         }
         row.add(new Plot());
         System.out.println(row.size());
+        totalPlants();
     }
-    public class Main {
-        public static void main(String[] args) {
-            ArrayList<String> fruit = new ArrayList<String>();
-            fruit.add("elderberry");
-            fruit.add("kiwi");
-            fruit.add("watermelon");
-            fruit.add("grapefruit");
-            System.out.println(fruit);
+
+//    public class Main {
+//        public static void main(String[] args) {
+//            ArrayList<String> fruit = new ArrayList<String>();
+//            fruit.add("elderberry");
+//            fruit.add("kiwi");
+//            fruit.add("watermelon");
+//            fruit.add("grapefruit");
+//            fruit.remove(0);
+//            System.out.println(fruit);
+//        }
+//    }
+    public void totalPlants() {
+        int total = 0;
+        for(Plot a : row){
+            total+= a.numberOfPlant;
         }
+        System.out.println("total plants in my farm is " +total);
     }
 
 
