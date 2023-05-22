@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="arraylist">
+    <list default="true" id="1afc3505-784f-45b8-8395-0698d26ab69e" name="Changes" comment="corn and sunflower">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFarmArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFarmArrayList.java" afterDir="false" />
     </list>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684250639694</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="corn and sunflower">
+      <created>1684516151842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684516151842</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +166,8 @@
     <MESSAGE value="array list" />
     <MESSAGE value="fruit add arraylist" />
     <MESSAGE value="arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
+    <MESSAGE value="corn and sunflower" />
+    <option name="LAST_COMMIT_MESSAGE" value="corn and sunflower" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
