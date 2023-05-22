@@ -22,6 +22,9 @@ public class MyFarmArrayList {
         printPlantNames();
         addCorn();
         printPlantNames();
+        tomatoLocations();
+        totalCarrots();
+        averageNumberOfPlants();
     }
 
 //    public class Main {
@@ -63,6 +66,42 @@ public class MyFarmArrayList {
         corn.needsWater = false;
         corn.printPlot();
         row.set(3, corn);
+    }
+    public void tomatoLocations() {
+        for (int m = 0; m < row.size(); m++) {
+
+            if (row.get(m).plantName.equals("tomato")) {
+                System.out.println(m);
+            }
+        }
+    }
+    public void totalCarrots(){
+        int carrots = 0;
+        for(Plot b : row) {
+            if (b.plantName.equals("carrots")) {
+                carrots += b.numberOfPlant;
+            }
+        }
+        System.out.println("the total carrots is " + carrots);
+    }
+    public void averageNumberOfPlants() {
+        // what is the average number of plants across the whole row?
+        int sum = 0 ;
+                for(Plot a : row){
+                    sum += a.numberOfPlant;
+                }
+                System.out.println(sum / row.size());
+    }
+
+    public void numberOfCarrotPlots() {
+        int carrotPlots = 0;
+        // how many plots have carrots on them
+// call printPlantNames() method to check
+    }
+
+    public void numberOfEmptyPlots() {
+        // how many plots are empty
+// call printPlantNames() method to check
     }
 
 }
