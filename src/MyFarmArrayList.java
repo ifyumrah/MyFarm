@@ -16,15 +16,20 @@ public class MyFarmArrayList {
         }
         row.add(new Plot());
         System.out.println(row.size());
-        totalPlants();
-        printPlantNames();
-        addSunflower();
-        printPlantNames();
-        addCorn();
-        printPlantNames();
-        tomatoLocations();
-        totalCarrots();
-        averageNumberOfPlants();
+//        totalPlants();
+//        printPlantNames();
+//        addSunflower();
+//        printPlantNames();
+//        addCorn();
+//        printPlantNames();
+//        tomatoLocations();
+//        totalCarrots();
+//        averageNumberOfPlants();
+//        printRowInfo();
+//        everyOtherNeedsWater();
+        numberOfEmptyPlots();
+        printRowInfo();
+
     }
 
 //    public class Main {
@@ -98,10 +103,30 @@ public class MyFarmArrayList {
         // how many plots have carrots on them
 // call printPlantNames() method to check
     }
-
+    public void printRowInfo() {
+       for(Plot a: row){
+           a.printPlot();
+       }
+    }
     public void numberOfEmptyPlots() {
-        // how many plots are empty
-// call printPlantNames() method to check
+        int emptyPlots = 0;
+        for(int a=0;a<row.size();a++){
+            if(row.get(a).plantName.equals("empty")){
+                emptyPlots += 1;
+            }
+
+        }
+        System.out.println("there are " + emptyPlots + " empty plots");
+    }
+    public void everyOtherNeedsWater(){
+        for(int n=0;n<row.size();n++){
+        if(n % 2 == 1){
+            row.get(n).needsWater = false;
+
+        } else{
+            row.get(n).needsWater = true;
+        }
+        }
     }
 
 }
